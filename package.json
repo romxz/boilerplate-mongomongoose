@@ -1,14 +1,16 @@
 {
 	"name": "fcc-mongo-mongoose-challenges",
-	"version": "0.0.1",
-	"description": "A boilerplate project",
+	"version": "0.1.0",
+	"description": "A boilerplate project for mongodb",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
 		"express": "^4.12.4",
-		"body-parser": "^1.15.2"
+		"body-parser": "^1.15.2",
+		"mongodb": "latest",
+		"mongoose": "latest"
 	},
 	"engines": {
 		"node": "4.4.5"
@@ -22,5 +24,6 @@
 		"hyperdev",
 		"express"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"author": "Ruben Romero"
 }
